@@ -1,0 +1,26 @@
+{
+  "name": "solid-hydration-error",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "esbuild": "^0.19.8",
+    "postcss": "^8.4.32",
+    "solid-start-node": "^0.3.10",
+    "typescript": "^5.3.3",
+    "vite": "^4"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.29.1",
+    "@solidjs/router": "0.8",
+    "solid-js": "^1.8.7",
+    "solid-start": "^0.3.10"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
